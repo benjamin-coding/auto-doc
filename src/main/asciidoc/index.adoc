@@ -1,0 +1,60 @@
+= 接口文档
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+:author: 刘勋明
+:email: xunming.liu@gmail.com
+:version: 1.0.0
+:date: 2020-03-11
+:toc: left
+:toc-title: 功能列表
+:toclevels: 4
+:sectlinks:
+
+== 用户
+
+用户相关接口，调用此系列接口完成对用户的操作
+
+=== 分页查询
+
+.请求地址
+include::{snippets}\user_page\curl-request.adoc[]
+.请求参数
+include::{snippets}\user_page\request-parameters.adoc[]
+.响应报文
+include::{snippets}\user_page\response-body.adoc[]
+.响应数据
+include::{snippets}\user_page\response-fields.adoc[]
+
+=== 获取用户信息
+
+.请求地址
+include::{snippets}\user_get\curl-request.adoc[]
+.请求参数
+include::{snippets}\user_get\path-parameters.adoc[]
+.响应报文
+include::{snippets}\user_get\response-body.adoc[]
+.响应数据
+include::{snippets}\user_get\response-fields.adoc[]
+
+=== 保存用户
+
+.请求地址
+include::{snippets}\user_save\curl-request.adoc[]
+.请求报文
+include::{snippets}\user_save\request-body.adoc[]
+.响应报文
+include::{snippets}\user_save\response-body.adoc[]
+.响应数据
+include::{snippets}\user_save\response-fields.adoc[]
+
+=== 删除用户
+
+.请求地址
+include::{snippets}\user_delete\curl-request.adoc[]
+.请求参数
+include::{snippets}\user_delete\path-parameters.adoc[]
+.响应报文
+include::{snippets}\user_delete\response-body.adoc[]
+.响应数据
+include::{snippets}\user_delete\response-fields.adoc[]
